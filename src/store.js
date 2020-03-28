@@ -1,3 +1,5 @@
+import Vuex from 'vuex'
+
 const store = new Vuex.Store( {
   state: { numbers: [1,2,3] },    // Property to share within the application
   mutations: {                    // Functions that mutate the store's state directly
