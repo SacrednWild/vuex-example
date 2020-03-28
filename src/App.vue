@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <NumberDisplay />
+    <NumberSubmit />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NumberDisplay from './components/NumberDisplay.vue'
+import NumberSubmit from './components/NumberSubmit.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NumberDisplay,
+    NumberSubmit
   }
 }
 </script>
