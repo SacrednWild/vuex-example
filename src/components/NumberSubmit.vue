@@ -1,7 +1,7 @@
 <template>
   <div>
     <input v-model.number="numberInput" type="number" />
-    <button v-on:click="addNumber( numberInput )"></button>
+    <button v-on:click="addNumber( numberInput )"> Add New Number </button>
   </div>
 </template>
 
